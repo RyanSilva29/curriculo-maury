@@ -1,0 +1,84 @@
+       body {
+           font-family: 'Arial', sans-serif;
+           line-height: 1.6;
+           margin: 20px;
+           padding: 0;
+           background-color: #f4f4f4;
+           color: #333;
+           max-width: 800px;
+           margin: 20px auto;
+           border: 1px solid #ddd;
+           padding: 30px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+
+       header {
+           text-align: center;
+           padding-bottom: 20px;
+           border-bottom: 2px solid #333;
+           margin-bottom: 20px;
+       }
+
+       h1 {
+           color: #1a1a1a;
+           margin-bottom: 5px;
+           font-size: 2.2em;
+       }
+
+       h2 {
+           color: #444;
+           border-bottom: 1px solid #ccc;
+           padding-bottom: 5px;
+           margin-top: 25px;
+           font-size: 1.5em;
+       }
+
+       .section-content {
+           padding-left: 20px;
+       }
+
+       .personal-data p {
+           margin: 5px 0;
+       }
+
+       .experience-item {
+           margin-bottom: 15px;
+           border-left: 3px solid #007bff;
+           padding-left: 10px;
+       }
+
+       .experience-item strong {
+           display: block;
+           font-size: 1.1em;
+           color: #007bff;
+       }
+
+       ul {
+           list-style-type: disc;
+           padding-left: 20px;
+       }
+
+       li {
+           margin-bottom: 5px;
+       }
+
+       a {
+           color: #007bff;
+           text-decoration: none;
+       }
+
+       a:hover {
+           text-decoration: underline;
+       }
+
+       /* Estilo para a imagem: Adicionar se você for incluir uma foto */
+       .profile-photo {
+           width: 100px;
+           /* Tamanho da foto */
+           height: 100px;
+           border-radius: 50%;
+           /* Deixa a foto redonda */
+           object-fit: cover;
+           border: 3px solid #ccc;
+           margin-top: 10px;
+       }
